@@ -60,4 +60,4 @@ This project performs Exploratory Data Analysis (EDA) on the Iris dataset to ide
 
 
 ## 👩 Author
-**Marianne Ongondi
+Marianne Ongondi
