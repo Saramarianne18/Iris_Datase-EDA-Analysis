@@ -1,13 +1,13 @@
 # 🌸 Iris Datas
-et Exploratory Data Analysis (EDA)
+Exploratory Data Analysis (EDA)
 
-## 📌 Overview
+## Overview
 
 This project performs Exploratory Data Analysis (EDA) on the Iris dataset to identify patterns, relationships, and key features that distinguish different species. The analysis focuses on understanding data distribution, correlations, and feature importance using Python.
 
 ---
 
-## 🎯 Objectives
+## Objectives
 - Understand the structure and distribution of the dataset  
 - Identify patterns and relationships between features  
 - Analyse differences across species  
@@ -17,17 +17,19 @@ This project performs Exploratory Data Analysis (EDA) on the Iris dataset to ide
 
 ## 🛠️ Tools & Technologies
 - Python  
-- Pandas  
+- Pandas 
+- Numpy 
 - Matplotlib  
 - Seaborn  
-- Jupyter Notebook  
+- Jupyter Notebook 
+- Visual Studio Code 
 
 ---
 
 ## 📊 Dataset
 - **Name:** Iris Dataset  
 - **Source:** Scikit-learn library  
-- **Size:** 150 records, 4 features + 1 target variable  
+- **Size:** 150 records 
 
 ---
 
@@ -39,18 +41,23 @@ This project performs Exploratory Data Analysis (EDA) on the Iris dataset to ide
 - Species comparison using boxplots  
 - Pairwise feature relationships (pairplot)  
 - Outlier detection  
-- Feature variance analysis  
-- Feature engineering (petal ratio)  
+- Feature variance analysis    
 
 ---
 
 ## 📈 Key Insights
-- Petal length and width are the most important features for distinguishing species  
-- Setosa species is clearly separable from others  
-- Versicolor and Virginica show slight overlap but remain distinguishable  
-- Strong positive correlation exists between petal length and petal width  
-- Dataset is clean, balanced, and suitable for analysis  
+
+- Petal length and petal width are the most significant features for distinguishing between species, showing clear variation and minimal overlap across groups.  
+- Setosa is completely separable from the other species due to its consistently smaller petal measurements.  
+- Versicolor and Virginica show slight overlap but can still be differentiated using petal features.  
+- A strong positive correlation exists between petal length and petal width, indicating potential redundancy.  
+- Sepal features show weaker separation and higher overlap, making them less reliable for classification.  
+- The dataset is clean, with no significant outliers or missing values.  
+- The dataset is balanced across species, reducing bias in analysis.  
+- The data is suitable for classification tasks and predictive modeling.   
 
 ---
 
-## 🚀 Project Structure
+
+## 👩 Author
+**Marianne Ongondi
